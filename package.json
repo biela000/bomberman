@@ -1,0 +1,20 @@
+{
+	"name": "bomberman",
+	"packageManager": "yarn@3.6.3",
+	"scripts": {
+		"dev": "concurrently \"tsc --watch\" \"sass --watch sass:public/styles\" \"live-server . --port=3000\"",
+		"lint": "eslint . --ext .ts"
+	},
+	"devDependencies": {
+		"@types/sass": "^1.45.0",
+		"@typescript-eslint/eslint-plugin": "^7.1.1",
+		"@typescript-eslint/parser": "^7.1.1",
+		"concurrently": "^8.2.2",
+		"eslint": "^8.57.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.29.1",
+		"live-server": "^1.2.2",
+		"sass": "^1.71.1",
+		"typescript": "^5.4.2"
+	}
+}
